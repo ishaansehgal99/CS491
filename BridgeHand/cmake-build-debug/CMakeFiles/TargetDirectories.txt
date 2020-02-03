@@ -1,0 +1,3 @@
+/Users/ishaansehgal/CLionProjects/CS 491/BridgeHand/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ishaansehgal/CLionProjects/CS 491/BridgeHand/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ishaansehgal/CLionProjects/CS 491/BridgeHand/cmake-build-debug/CMakeFiles/bridgeHand.dir
