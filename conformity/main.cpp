@@ -7,14 +7,14 @@
 
 int main() {
 
-    std::unordered_map<std::string, int> map;
-    int max = 0;
+    std::unordered_map<int, int> map;
     int input[5];
 
     int x = 0;
     scanf("%d", &x);
 
     while(x != 0){
+        int max = 0;
         for(int i = 0; i < x; i++){
 
             for(int y = 0; y < 5; y++){
@@ -22,33 +22,30 @@ int main() {
             }
 
             std::sort(input, input + 5);
-            std::stringstream ss;
 
-            for(int z : input){
-                ss << z;
-            }
-
-            std::string res = ss.str();
+            long long int num = 0;
+            for (int w = 0; w < 5; w++) num = num * 1000 + input[w];
 
 
-            if (map.find(res) != map.end()) {
-                map[res] += 1;
-                if(map[res] > max)
-                    max = map[res];
+            if (map.find(num) != map.end()) {
+                map[num]++;
             } else {
-                map[res] = 1;
+                map[num] = 1;
             }
-        }
 
-        if(max == 0){
-            printf("%d\n", x);
-        } else {
-            printf("%d\n", max);
+            if(map[num] > max)
+                max = map[num];
+
+
         }
+        int ans = 0;
+        for(const auto &k:  map){
+            if(k.second == max) ans += max;
+        }
+        printf("%d\n", ans);
 
         scanf("%d", &x);
-        max = 0;
-        std::fill_n(input, 5, 0);
+
         map.clear();
     }
 
