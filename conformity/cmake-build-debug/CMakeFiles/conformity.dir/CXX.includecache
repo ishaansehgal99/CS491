@@ -6,3 +6,15 @@
 
 #IncludeRegexTransform: 
 
+/Users/ishaansehgal/CLionProjects/CS 491/conformity/main.cpp
+iostream
+-
+unordered_map
+-
+string
+-
+algorithm
+-
+sstream
+-
+
