@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ishaansehgal/CLionProjects/CS 491/graph-connectivity/main.cpp
+string
+-
+unordered_map
+-
+set
+-
+vector
+-
+cstring
+-
+
