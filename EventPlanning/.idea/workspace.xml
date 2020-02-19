@@ -12,24 +12,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="352c2e07-d393-4fd8-87e2-1fdbb6da1ae1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../FerryLoading/.idea/FerryLoading.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FerryLoading/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FerryLoading/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FerryLoading/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FerryLoading/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FerryLoading/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FerryLoading/ferryLoader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../graph-connectivity/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../graph-connectivity/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../graph-connectivity/.idea/graph-connectivity.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../graph-connectivity/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../graph-connectivity/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../graph-connectivity/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../graph-connectivity/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../graph-connectivity/example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Argus/.idea/Argus.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Argus/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Argus/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Argus/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Argus/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Argus/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Argus/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Argus/cmake-build-debug/Argus" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Argus/cmake-build-debug/CMakeFiles/Argus.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Argus/cmake-build-debug/CMakeFiles/Argus.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Argus/cmake-build-debug/CMakeFiles/Argus.dir/main.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Argus/example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Argus/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +47,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -79,7 +76,7 @@
       <workItem from="1580165276155" duration="997000" />
       <workItem from="1580503170354" duration="9000" />
       <workItem from="1580504595869" duration="1240000" />
-      <workItem from="1581988455964" duration="555000" />
+      <workItem from="1581988455964" duration="1495000" />
     </task>
     <servers />
   </component>
