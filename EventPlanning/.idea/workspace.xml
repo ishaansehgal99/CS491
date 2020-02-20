@@ -12,20 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="352c2e07-d393-4fd8-87e2-1fdbb6da1ae1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Argus/.idea/Argus.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Argus/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Argus/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Argus/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Argus/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Argus/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Argus/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Argus/cmake-build-debug/Argus" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Argus/cmake-build-debug/CMakeFiles/Argus.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Argus/cmake-build-debug/CMakeFiles/Argus.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Argus/cmake-build-debug/CMakeFiles/Argus.dir/main.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Argus/example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Argus/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Argus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Argus/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
