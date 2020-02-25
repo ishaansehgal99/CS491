@@ -11,7 +11,21 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86dfcf08-cfb9-4c16-bf34-3c4499ddca8f" name="Default Changelist" comment="" />
+    <list default="true" id="86dfcf08-cfb9-4c16-bf34-3c4499ddca8f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../HoaxOrWhat/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HoaxOrWhat/.idea/HoaxOrWhat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HoaxOrWhat/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HoaxOrWhat/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HoaxOrWhat/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HoaxOrWhat/cmake-build-debug/CMakeFiles/HoaxOrWhat.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HoaxOrWhat/cmake-build-debug/CMakeFiles/HoaxOrWhat.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HoaxOrWhat/cmake-build-debug/CMakeFiles/HoaxOrWhat.dir/main.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HoaxOrWhat/cmake-build-debug/HoaxOrWhat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HoaxOrWhat/example.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../containers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../containers/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../containers/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../containers/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582091184182</updated>
       <workItem from="1582091185686" duration="8456000" />
+      <workItem from="1582662752088" duration="530000" />
     </task>
     <servers />
   </component>

@@ -48,7 +48,6 @@ int main() {
         for(size_t x = 0; x < strlen(input); x++)
             unique_chars.insert(input[x]);
 
-
         int res = unique_chars.size() < stacks.size() ? unique_chars.size() : stacks.size();
         printf("Case %d: %d\n", case_num, res);
 

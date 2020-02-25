@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ishaansehgal/CLionProjects/CS 491/HoaxOrWhat/main.cpp
+iostream
+-
+vector
+-
+cstring
+-
+
