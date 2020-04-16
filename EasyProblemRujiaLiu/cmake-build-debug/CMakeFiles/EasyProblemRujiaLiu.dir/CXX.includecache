@@ -6,18 +6,14 @@
 
 #IncludeRegexTransform: 
 
-/Users/ishaansehgal/CLionProjects/CS 491/HoaxOrWhat/main.cpp
-queue
--
-cstring
--
-cstdio
--
-cstdlib
+/Users/ishaansehgal/CLionProjects/CS 491/EasyProblemRujiaLiu/main.cpp
+iostream
 -
 unordered_map
 -
-algorithm
+string
+-
+sstream
 -
 vector
 -
