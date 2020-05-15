@@ -1,10 +1,10 @@
-#include <queue>
-#include <cstring>
-#include <cstdio>
-#include <cstdlib>
-#include <unordered_map>
-#include <algorithm>
+#include <string>
 #include <vector>
+#include <queue>
+#include <unordered_map>
+
+#include <cstdio>
+#include <cstring>
 
 using namespace std;
 
@@ -13,38 +13,40 @@ int main() {
     size_t size = 0;
 
     while(getline(&input, &size, stdin) != EOF){
-        int num_lines = atoi(input);
+        int num_lines = stoi(input);
         if(num_lines == 0) return 0;
-        int res = 0;
+        unsigned long res = 0;
 
-        priority_queue<int> q1;
-        priority_queue<int, vector<int>, greater<int>> q2;
+        priority_queue<int> max_heap;
+        priority_queue<int, vector<int>, greater<int> > min_heap;
         unordered_map<int, int> map;
 
         for(size_t i = 0; i < num_lines; i++){
             getline(&input, &size, stdin);
 
             char *tok = strtok(input, " ");
-            int nums = atoi(tok);
+            int nums = stoi(tok);
 
             for(size_t num = 0; num < nums; num++){
                 tok = strtok(nullptr ," ");
-                int add = atoi(tok);
+                int add = stoi(tok);
                 map[add] = (map.find(add) != map.end()) ? map[add] + 1 : 1;
-                q1.push(add);
-                q2.push(add);
+                max_heap.push(add);
+                min_heap.push(add);
             }
 
-            int q1_top = q1.top();
-            int q2_top = q2.top();
-            while(q1.size() > 1 && map.find(q1_top) == map.end()){
-                q1.pop();
-                q1_top = q1.top();
+            int q1_top = max_heap.top();
+            max_heap.pop();
+            while(map.find(q1_top) == map.end()){
+                q1_top = max_heap.top();
+                max_heap.pop();
             }
 
-            while(q2.size() > 1 && map.find(q2_top) == map.end()){
-                q2.pop();
-                q2_top = q1.top();
+            int q2_top = min_heap.top();
+            min_heap.pop();
+            while(map.find(q2_top) == map.end()){
+                q2_top = min_heap.top();
+                min_heap.pop();
             }
 
             map[q1_top]--;
@@ -56,7 +58,7 @@ int main() {
 
             res += q1_top - q2_top;
         }
-        printf("%d\n", res);
+        printf("%lu\n", res);
     }
 
     return 0;

@@ -3,4 +3,4 @@ project(EasyProblemRujiaLiu)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(EasyProblemRujiaLiu main.cpp)
+add_executable(EasyProblemRujiaLiu main.cpp ../HoaxOrWhat/main.cpp ../HoaxOrWhat/main.hpp)

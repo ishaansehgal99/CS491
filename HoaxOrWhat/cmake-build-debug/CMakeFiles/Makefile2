@@ -53,12 +53,12 @@ CMAKE_BINARY_DIR = "/Users/ishaansehgal/CLionProjects/CS 491/HoaxOrWhat/cmake-bu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/HoaxOrWhat.dir/all
+all: CMakeFiles/Hoax.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/HoaxOrWhat.dir/clean
+clean: CMakeFiles/Hoax.dir/clean
 
 .PHONY : clean
 
@@ -68,31 +68,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/HoaxOrWhat.dir
+# Target rules for target CMakeFiles/Hoax.dir
 
 # All Build rule for target.
-CMakeFiles/HoaxOrWhat.dir/all:
-	$(MAKE) -f CMakeFiles/HoaxOrWhat.dir/build.make CMakeFiles/HoaxOrWhat.dir/depend
-	$(MAKE) -f CMakeFiles/HoaxOrWhat.dir/build.make CMakeFiles/HoaxOrWhat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/ishaansehgal/CLionProjects/CS 491/HoaxOrWhat/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target HoaxOrWhat"
-.PHONY : CMakeFiles/HoaxOrWhat.dir/all
+CMakeFiles/Hoax.dir/all:
+	$(MAKE) -f CMakeFiles/Hoax.dir/build.make CMakeFiles/Hoax.dir/depend
+	$(MAKE) -f CMakeFiles/Hoax.dir/build.make CMakeFiles/Hoax.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/ishaansehgal/CLionProjects/CS 491/HoaxOrWhat/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target Hoax"
+.PHONY : CMakeFiles/Hoax.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/HoaxOrWhat.dir/rule: cmake_check_build_system
+CMakeFiles/Hoax.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ishaansehgal/CLionProjects/CS 491/HoaxOrWhat/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HoaxOrWhat.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hoax.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ishaansehgal/CLionProjects/CS 491/HoaxOrWhat/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/HoaxOrWhat.dir/rule
+.PHONY : CMakeFiles/Hoax.dir/rule
 
 # Convenience name for target.
-HoaxOrWhat: CMakeFiles/HoaxOrWhat.dir/rule
+Hoax: CMakeFiles/Hoax.dir/rule
 
-.PHONY : HoaxOrWhat
+.PHONY : Hoax
 
 # clean rule for target.
-CMakeFiles/HoaxOrWhat.dir/clean:
-	$(MAKE) -f CMakeFiles/HoaxOrWhat.dir/build.make CMakeFiles/HoaxOrWhat.dir/clean
-.PHONY : CMakeFiles/HoaxOrWhat.dir/clean
+CMakeFiles/Hoax.dir/clean:
+	$(MAKE) -f CMakeFiles/Hoax.dir/build.make CMakeFiles/Hoax.dir/clean
+.PHONY : CMakeFiles/Hoax.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

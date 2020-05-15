@@ -123,6 +123,33 @@ EasyProblemRujiaLiu/fast:
 	$(MAKE) -f CMakeFiles/EasyProblemRujiaLiu.dir/build.make CMakeFiles/EasyProblemRujiaLiu.dir/build
 .PHONY : EasyProblemRujiaLiu/fast
 
+Users/ishaansehgal/CLionProjects/CS_491/Hoax/main.o: Users/ishaansehgal/CLionProjects/CS_491/Hoax/main.cpp.o
+
+.PHONY : Users/ishaansehgal/CLionProjects/CS_491/Hoax/main.o
+
+# target to build an object file
+Users/ishaansehgal/CLionProjects/CS_491/Hoax/main.cpp.o:
+	$(MAKE) -f CMakeFiles/EasyProblemRujiaLiu.dir/build.make CMakeFiles/EasyProblemRujiaLiu.dir/Users/ishaansehgal/CLionProjects/CS_491/Hoax/main.cpp.o
+.PHONY : Users/ishaansehgal/CLionProjects/CS_491/Hoax/main.cpp.o
+
+Users/ishaansehgal/CLionProjects/CS_491/Hoax/main.i: Users/ishaansehgal/CLionProjects/CS_491/Hoax/main.cpp.i
+
+.PHONY : Users/ishaansehgal/CLionProjects/CS_491/Hoax/main.i
+
+# target to preprocess a source file
+Users/ishaansehgal/CLionProjects/CS_491/Hoax/main.cpp.i:
+	$(MAKE) -f CMakeFiles/EasyProblemRujiaLiu.dir/build.make CMakeFiles/EasyProblemRujiaLiu.dir/Users/ishaansehgal/CLionProjects/CS_491/Hoax/main.cpp.i
+.PHONY : Users/ishaansehgal/CLionProjects/CS_491/Hoax/main.cpp.i
+
+Users/ishaansehgal/CLionProjects/CS_491/Hoax/main.s: Users/ishaansehgal/CLionProjects/CS_491/Hoax/main.cpp.s
+
+.PHONY : Users/ishaansehgal/CLionProjects/CS_491/Hoax/main.s
+
+# target to generate assembly for a file
+Users/ishaansehgal/CLionProjects/CS_491/Hoax/main.cpp.s:
+	$(MAKE) -f CMakeFiles/EasyProblemRujiaLiu.dir/build.make CMakeFiles/EasyProblemRujiaLiu.dir/Users/ishaansehgal/CLionProjects/CS_491/Hoax/main.cpp.s
+.PHONY : Users/ishaansehgal/CLionProjects/CS_491/Hoax/main.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... EasyProblemRujiaLiu"
+	@echo "... Users/ishaansehgal/CLionProjects/CS_491/Hoax/main.o"
+	@echo "... Users/ishaansehgal/CLionProjects/CS_491/Hoax/main.i"
+	@echo "... Users/ishaansehgal/CLionProjects/CS_491/Hoax/main.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

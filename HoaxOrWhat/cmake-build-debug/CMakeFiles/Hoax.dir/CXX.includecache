@@ -7,18 +7,16 @@
 #IncludeRegexTransform: 
 
 /Users/ishaansehgal/CLionProjects/CS 491/HoaxOrWhat/main.cpp
+string
+-
+vector
+-
 queue
--
-cstring
--
-cstdio
--
-cstdlib
 -
 unordered_map
 -
-algorithm
+cstdio
 -
-vector
+cstring
 -
 

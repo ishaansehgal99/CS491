@@ -83,6 +83,12 @@
 		<Unit filename="/Users/ishaansehgal/CLionProjects/CS 491/EasyProblemRujiaLiu/main.cpp">
 			<Option target="EasyProblemRujiaLiu"/>
 		</Unit>
+		<Unit filename="/Users/ishaansehgal/CLionProjects/CS 491/Hoax/main.cpp">
+			<Option target="EasyProblemRujiaLiu"/>
+		</Unit>
+		<Unit filename="/Users/ishaansehgal/CLionProjects/CS 491/Hoax/main.hpp">
+			<Option target="EasyProblemRujiaLiu"/>
+		</Unit>
 		<Unit filename="/Users/ishaansehgal/CLionProjects/CS 491/EasyProblemRujiaLiu/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
