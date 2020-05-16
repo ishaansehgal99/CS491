@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/ishaansehgal/CLionProjects/CS 491/containers"
+CMAKE_SOURCE_DIR = "/Users/ishaansehgal/CLionProjects/CS 491/container"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/ishaansehgal/CLionProjects/CS 491/containers/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/ishaansehgal/CLionProjects/CS 491/container/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ishaansehgal/CLionProjects/CS 491/containers/cmake-build-debug/CMakeFiles" "/Users/ishaansehgal/CLionProjects/CS 491/containers/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ishaansehgal/CLionProjects/CS 491/container/cmake-build-debug/CMakeFiles" "/Users/ishaansehgal/CLionProjects/CS 491/container/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ishaansehgal/CLionProjects/CS 491/containers/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ishaansehgal/CLionProjects/CS 491/container/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named containers
+# Target rules for targets named container
 
 # Build rule for target.
-containers: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 containers
-.PHONY : containers
+container: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 container
+.PHONY : container
 
 # fast build rule for target.
-containers/fast:
-	$(MAKE) -f CMakeFiles/containers.dir/build.make CMakeFiles/containers.dir/build
-.PHONY : containers/fast
+container/fast:
+	$(MAKE) -f CMakeFiles/container.dir/build.make CMakeFiles/container.dir/build
+.PHONY : container/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/containers.dir/build.make CMakeFiles/containers.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/container.dir/build.make CMakeFiles/container.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/containers.dir/build.make CMakeFiles/containers.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/container.dir/build.make CMakeFiles/container.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/containers.dir/build.make CMakeFiles/containers.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/container.dir/build.make CMakeFiles/container.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... containers"
+	@echo "... container"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

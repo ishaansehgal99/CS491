@@ -6,17 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/ishaansehgal/CLionProjects/CS 491/containers/main.cpp
+/Users/ishaansehgal/CLionProjects/CS 491/container/main.cpp
 iostream
 -
-cstring
+string
 -
 vector
 -
 stack
 -
-string
--
-set
+cstdio
 -
 
